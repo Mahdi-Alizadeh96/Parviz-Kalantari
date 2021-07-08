@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Behdad';
+    src: url('../fonts/Behdad-Regular.woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mj_Ghalam';
+    src: url('../fonts/Mj_Ghalam-2.TTF');
+    font-style: normal;
+}
