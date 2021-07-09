@@ -9,3 +9,9 @@
     src: url('../fonts/Mj_Ghalam-2.TTF');
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Tunisia';
+    src: url('../fonts/Mj_Tunisia\ Lt.ttf');
+    font-style: normal;
+}
