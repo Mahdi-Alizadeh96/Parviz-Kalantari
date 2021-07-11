@@ -117,6 +117,19 @@
     height: 130px;
     object-fit: cover;
 }
+@media only screen and (max-width: 767px) {
+    .new-post__image img,.new-post__image {
+      width: 100%;
+    }
+    .new-post__image img {
+        object-fit: cover;
+    }
+  }
+  @media only screen and (max-width: 993px) {
+    .new-post__image {
+      padding: 2%;
+    }
+  }
 .new-post__image  img {
     border-radius: 10px;
 }
@@ -394,4 +407,17 @@ footer {
 .gallery__image:hover {
     opacity: 70%;
     transform: scale(1.06);
+}
+
+/* Videos */
+.video-icon {
+    color: var(--main-color);
+    font-family: Tunisia;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+}
+.video-icon a {
+    margin-left: 5px;
+    height:21px;
 }
