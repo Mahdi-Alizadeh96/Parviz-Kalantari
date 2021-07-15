@@ -8,7 +8,7 @@
 }
 button {
     background-color: var(--sec-color);
-    border: 0px;
+    border: 1px solid white;
     padding: 6px;
     border-radius: 5px;
     color: var(--whi-color);
@@ -18,8 +18,8 @@ button:hover {
     background-color: white;
     color: var(--sec-color);
     border: 1px solid var(--sec-color);
-    box-shadow: 0px 0px 15px var(--shad-color);
-    text-transform: scale(1.01);
+    box-shadow: 0px 0px 10px var(--shad-color);
+    text-transform: scale(1.03);
 }
 input {
     width: 100%;
@@ -29,6 +29,7 @@ input {
     border-bottom: 1px solid var(--sec-color);
 }
 input:hover {
+    z-index: 1;
     transform: scale(1.03);
 }
 input:focus {
@@ -132,3 +133,16 @@ input:read-write {
 .modal-body form > button {
     margin-top: 20px;
 } 
+
+/* 404 */
+.error404{
+    font-size: 140px;
+}
+.fa-sad-tear {
+    font-size: 100px;
+}
+.error-message {
+    padding: 6%;
+    text-align: center;
+    color: var(--main-color);
+}
