@@ -133,6 +133,9 @@ input:read-write {
 .modal-body form > button {
     margin-top: 20px;
 } 
+.modal-dialog {
+    margin-top: 110px;
+}
 
 /* 404 */
 .error404{
