@@ -4,19 +4,22 @@ $(document).ready(function () {
 });
 // Tooltip
 
-// like btn 
 
-const select_btn = document.querySelector('.like-btn');
+// menu 
 
-select_btn.addEventListener('click', () => {
+const menuBox = document.querySelector('.nav-bar ul');
 
-  const select_btn = document.querySelector('.like-btn');
 
-  if(select_btn.classList.contains('far')) {
-    select_btn.classList.remove('far');
-    select_btn.classList.add('fas');
-  } else {
-    select_btn.classList.remove('fas');
-    select_btn.classList.add('far');
+const colexit = document.querySelector('.collpase-menu i');
+
+
+
+colexit.addEventListener('click', function() {
+  if(this.classList.contains('fa-bars')) {
+    this.classList = 'fas fa-times';
+    menuBox.style.right = 0;
+  }else {
+    this.classList = 'fas fa-bars'
+    menuBox.style.right = '-160px'
   }
 })

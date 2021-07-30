@@ -81,7 +81,15 @@ background: var(--thi-color);
 .nav-bar ul {
     display: flex;
 }
-
+.collpase-menu {
+    display: none;
+    font-size: 30px;
+    color: var(--main-color);
+}
+.collpase-menu i {
+    height: fit-content;
+    cursor: pointer;
+}
 /* Main Page Layout */
 
 .about-artist {
@@ -98,6 +106,8 @@ background: var(--thi-color);
     margin-bottom: 10px;
 }
 .about-artist__image img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
     border-radius: 5px;
     width: 100%;
     max-width: 140px;
@@ -131,13 +141,6 @@ background: var(--thi-color);
 .new-post:hover {
     box-shadow: 0px 0px 35px var(--shad-color);
 }
-.new-post__image {
-    display: flex;
-    justify-content: center;
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-}
 @media only screen and (max-width: 767px) {
     .new-post__image img,.new-post__image {
       width: 100%;
@@ -151,8 +154,18 @@ background: var(--thi-color);
       padding: 2%;
     }
   }
+.new-post__image {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
 .new-post__image  img {
     border-radius: 10px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 .new-post__header a {
     font-size: 25px;
@@ -401,7 +414,7 @@ footer {
     font-size: 28px;
   }
   /* ------------------Article page --------------------- */
-@media only screen and (max-width: 1199px) {
+  @media only screen and (max-width: 1199px) {
     .content__header-box {
         padding-right: 48px;
     }
@@ -426,6 +439,12 @@ footer {
         margin-top: 35px;
         padding-right: 15px;
     }
+    .content__image {
+        width: 100% !important;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 10px !important;
+    }
 }
 .content {
       margin-top: 50px;
@@ -440,6 +459,10 @@ footer {
     margin-bottom: 50px;
 }
 .content__header-box img {
+    width: 130px;
+    height: 130px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     border-radius: 10px;
 }
 .article-top-header .new-post__date {
