@@ -20,6 +20,7 @@
     <link rel="shortcut icon" type="image/png" href="images/icon.png">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/mediaQuery.css">
 </head>
@@ -50,7 +51,7 @@
             </div>
             <div class="posts">
                 <div class="posts__header">آخرین مطالب</div>
-                <article class="new-post row">
+                <article class="new-post row aos-init" data-aos="fade-up">
                     <div class="col-md-2 new-post__image"><img src="https://picsum.photos/130/130.jpg" alt=""></div>
                     <div class="col-md-9 new-post__detail">
                         <div class="new-post__header"><a href="article.html">عنوان مقاله</a></div>
@@ -59,7 +60,7 @@
                     </div>
                     <div class="col-md-1 new-post__page"><a href="article.html" data-toggle="tooltip" title="مشاهده ی مقاله"><i class="fas fa-scroll"></i></a></div>
                 </article>
-                <article class="new-post row">
+                <article class="new-post row aos-init" data-aos="fade-up">
                     <div class="col-md-2 new-post__image"><img src="https://picsum.photos/130/130.jpg" alt=""></div>
                     <div class="col-md-9 new-post__detail">
                         <div class="new-post__header"><a href="article.html">عنوان مقاله</a></div>
@@ -68,7 +69,7 @@
                     </div>
                     <div class="col-md-1 new-post__page"><a href="article.html" data-toggle="tooltip" title="مشاهده ی مقاله"><i class="fas fa-scroll"></i></a></div>
                 </article>
-                <article class="new-post row">
+                <article class="new-post row aos-init" data-aos="fade-up">
                     <div class="col-md-2 new-post__image"><img src="https://picsum.photos/130/130.jpg" alt=""></div>
                     <div class="col-md-9 new-post__detail">
                         <div class="new-post__header"><a href="article.html">عنوان مقاله</a></div>
@@ -87,18 +88,18 @@
         </div>
         <div class="paints">
             <div class="paints__row row">
-                <div class="col-3"><img src="images/painting-1.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-2.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-3.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-5.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-6.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-7.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-8.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-9.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-10.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-11.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-12.jpg" alt="painting"></div>
-                <div class="col-3"><img src="images/painting-4.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-up"><img src="images/painting-1.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-down"><img src="images/painting-2.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-up"><img src="images/painting-3.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-down"><img src="images/painting-5.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-up"><img src="images/painting-6.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-down"><img src="images/painting-7.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-up"><img src="images/painting-8.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-down"><img src="images/painting-9.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-up"><img src="images/painting-10.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-down"><img src="images/painting-11.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-up"><img src="images/painting-12.jpg" alt="painting"></div>
+                <div class="col-3 aos-init" data-aos="fade-down"><img src="images/painting-4.jpg" alt="painting"></div>
             </div>
         </div>
     </main>
@@ -133,6 +134,8 @@
 </body>
     <!-- FooterReferences -->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/script.js"></script>
+    <script>AOS.init();</script>
 </html>

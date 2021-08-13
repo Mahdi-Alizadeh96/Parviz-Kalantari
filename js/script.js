@@ -32,3 +32,8 @@ backBlack.addEventListener('click', () => {
   menuBox.style.right = '-160px';
   backBlack.style.display = 'none';
 })
+
+
+// -------ON/OFF line----
+
+window.addEventListener('offline', ()=> alert('اتصال اینترنت شما قطع است'))
